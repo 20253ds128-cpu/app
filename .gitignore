@@ -1,0 +1,63 @@
+# ==========================================
+# SEGURIDAD Y ARCHIVOS PRIVADOS / SENSIBLES
+# ==========================================
+# Archivos de propiedades con claves API y rutas locales
+local.properties
+
+# Claves de firmado (KeyStore) y certificados
+*.jks
+*.keystore
+*.p12
+*.pem
+*.pk8
+
+# Archivos de configuración con tokens de servicios (Firebase, etc.)
+# Descomentar si usas Google Services y contiene tokens privados
+# google-services.json
+
+# ==========================================
+# COMPILACIÓN Y CACHÉ (Android / Gradle)
+# ==========================================
+# Directorios de salida de compilación
+**/build/
+.gradle/
+build/
+
+# Caché de Gradle y paquetes
+.gradletasknamecache
+
+# ==========================================
+# ARCHIVOS DE CONFIGURACIÓN DE IDE (Android Studio / IntelliJ)
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.navigation/
+
+# Excepción: Mantener la configuración del estilo de código si existe
+!.idea/codeStyles/
+!.idea/copyright/
+
+# ==========================================
+# ARCHIVOS DEL SISTEMA OPERATIVO Y LOGS
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs y capturas
+*.log
+captures/
+
+# ==========================================
+# CAPTURA DE PANTALLA Y PRUEBAS
+# ==========================================
+.externalNativeBuild
+.cxx/
