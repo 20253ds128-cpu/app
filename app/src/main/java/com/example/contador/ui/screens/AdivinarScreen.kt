@@ -36,7 +36,7 @@ fun AdivinarScreen() {
     ) {
 
         Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
-            OutlinedTextField(value = numeroIngresado, onValueChange = { numeroIngresado = it }, modifier = Modifier.width(60.dp))
+            OutlinedTextField(value = numeroIngresado, onValueChange = { numeroIngresado = it })
         }
 
         Row(horizontalArrangement = Arrangement.spacedBy(16.dp)) {
